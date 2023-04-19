@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/a574658a7d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+    <title>navigation bar</title>
+
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 50px;
+            margin: 0%;
+            background-color: #415068;
+            font-family: 'Amita', cursive;
+        }
+
+
+
+
+        .navbar>a {
+            background-color: #415068;
+            font-size: 1.5em;
+            transition: 0.5s;
+            color: aliceblue;
+            margin: 0.5px 10px;
+            padding-right: 30px;
+            text-decoration: none;
+        }
+
+        .navbar>.brand {
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+
+        .navbar-links {
+            display: flex;
+        }
+
+        .navbar-links>.links>.btn {
+            background-color: #112f5e;
+            color: aliceblue;
+        }
+
+        .navbar-links>.links>.btn3 {
+            background-color: #415068;
+            color: aliceblue;
+            border: 0px;
+            width: 90px;
+            font-family: 'Amita', cursive;
+        }
+
+        .navbar-links>.links {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: 0px;
+        }
+
+        .links>.btn {
+            border: 0px;
+            width: 60px;
+            font-family: 'Amita', cursive;
+            font-size: medium;
+        }
+
+        .links>.btn:hover {
+            background-color: aliceblue;
+            color: #112f5e;
+            transition: .1s;
+            cursor: pointer;
+        }
+
+
+        .links>.btn3:hover {
+            background-color: #415068;
+            color: #112f5e;
+            transition: .1s;
+            cursor: pointer;
+        }
+
+        .links>.btn3 {
+            margin-left: 2057px;
+        }
+
+        .navbar>.toggle {
+            background-color: #415068;
+            width: 40px;
+            height: 50px;
+            border: 0px;
+            color: black;
+
+        }
+
+        .navbar>.toggle:hover {
+            background-color: aliceblue;
+            color: #112f5e;
+            transition: .1s;
+            cursor: pointer;
+            margin: 0.5px 10px;
+
+        }
+
+     
+            
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+
+            <a href="#" class="toggle" id="navHamburger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            
+            <a href="#" class="brand">MyName</a>
+        </div>
+
+        <div class="navbar-links">
+
+            <div class="links">
+                <button type="menu" class="btn">Link 1</button>
+            </div>
+            <div class="links">
+                <button type="menu" class="btn">Link 2</button>
+            </div>
+
+            <div class="links">
+                <button type="menu" class="btn3"> </button>
+            </div>
+
+            <div class="links">
+                <button type="menu" class="btn">Link 3</button>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
